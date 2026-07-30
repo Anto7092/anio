@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  /* Black & Gold Theme Palette */
+  --color-peach-50: #0A0A0C;   /* Main page obsidian black background */
+  --color-peach-100: #141417;  /* Sleek dark surface / card bg */
+  --color-peach-150: #1D1D22;  /* Elevated dark surface / card hover */
+  --color-peach-200: #2E271B;  /* Dark subtle gold-infused border */
+  --color-peach-300: #574624;  /* Rich brass/gold border */
+  --color-peach-400: #C5A059;  /* Muted warm metallic gold */
+  --color-peach-500: #D4AF37;  /* Signature Metallic Gold */
+  --color-peach-600: #E6C259;  /* Radiant gold highlight */
+  --color-peach-700: #F3E5AB;  /* Champagne gold text accent */
+  --color-peach-800: #F4F4F6;  /* High contrast light primary text */
+  --color-peach-850: #FFFFFF;  /* Pure white */
+  --color-peach-900: #E4E4E7;  /* Platinum light text */
+  --color-peach-950: #D4AF37;  /* Gold branding highlight */
+  
+  --color-warm-charcoal: #FAF7EE; /* High contrast champagne/gold heading color */
+  --color-warm-beige: #0E0E10;
+  --color-clay: #A1A1AA;       /* Refined zinc/platinum muted secondary text */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-peach-50);
+    color: var(--color-peach-800);
+    font-family: var(--font-sans);
+  }
+}
+
+

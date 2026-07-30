@@ -1,0 +1,6 @@
+{
+  "name": "A’nio Multispecialty Dental Centre",
+  "description": "A warm, minimalist multispecialty dental centre in Chennai by Dr. Anto. Focus on gentle, highly personalized aesthetic, conservative, and restorative dental care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
